@@ -1,0 +1,16 @@
+.intro-copy { position: relative; }
+.hero-pigeon {
+  position: absolute;
+  width: 145px;
+  right: 2%;
+  top: -62px;
+  transform: rotate(5deg);
+  filter: drop-shadow(0 14px 18px #5c2a2220);
+}
+@media (max-width: 900px) {
+  .hero-pigeon { width: 112px; right: 0; top: -34px; }
+}
+@media (max-width: 520px) {
+  .hero-pigeon { width: 88px; top: -25px; }
+  .intro-copy h1 { padding-right: 54px; }
+}
